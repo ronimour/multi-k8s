@@ -1,0 +1,7 @@
+### commands ###
+
+# Apply all yaml config files within 'k8s' folder
+kubectl apply -f k8s
+
+# Create a Secret 
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=12345asdf
